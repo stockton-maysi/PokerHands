@@ -1,0 +1,10 @@
+Hand type,5 cards,7 cards
+Pair,0.489500,0.791300
+Three of a kind,0.022400,0.073900
+Four of a kind,0.000200,0.001800
+Straight,0.002600,0.043700
+Flush,0.000900,0.021200
+Full house,0.001500,0.026600
+Straight flush,0.000000,0.000400
+Royal flush,0.000000,0.000000
+High card (none of the above),0.507000,0.176300
