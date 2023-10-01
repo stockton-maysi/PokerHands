@@ -2,6 +2,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
+/**
+ * Tester for HandEvaluator. Generates 10,000 each of 5-card and 7-card hands, and
+ * determines the properties of each one. Outputs to a CSV file the estimated
+ * probability of each hand type based on this Monte Carlo simulation.
+ * 
+ * @author Ian Mays
+ */
 public class TestHandEvaluator {
 	public static void main(String[] args) throws FileNotFoundException {
 		PrintWriter out = new PrintWriter(new File("out.csv"));

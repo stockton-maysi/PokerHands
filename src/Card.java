@@ -1,16 +1,36 @@
+/**
+ * An object with a suit attribute (clubs, diamonds, spades, or hearts) and a value
+ * attribute (integer from 1-13 inclusive; 1 represents ace, 11 for jack, 12 for queen,
+ * and 13 for king).
+ * 
+ * @author Ian Mays
+ */
 public class Card {
-	private String suite;
+	private String suit;
 	private int value;
 	
+	/**
+	 * Constructs a new Card.
+	 * @param s The suit symbol, as a String
+	 * @param v The integer value of the card
+	 */
 	public Card(String s, int v) {
-		suite = s;
+		suit = s;
 		value = v;
 	}
 	
-	public String getSuite() {
-		return suite;
+	/**
+	 * Gets the suit symbol.
+	 * @return The suit symbol
+	 */
+	public String getSuit() {
+		return suit;
 	}
 	
+	/**
+	 * Gets the card value.
+	 * @return The integer value
+	 */
 	public int getValue() {
 		return value;
 	}
@@ -30,6 +50,6 @@ public class Card {
 			valueName = "" + value;
 		}
 		
-		return suite + valueName;
+		return suit + valueName;
 	}
 }
